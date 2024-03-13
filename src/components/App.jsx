@@ -44,6 +44,7 @@ export const App = () => {
               </a>
             </p>
           )}
+          {!data.link && <span>theres no link</span>}
         </div>
       )}
     </div>
